@@ -1,0 +1,20 @@
+{
+    "data": {
+        "user": {
+            "id": "5ba47240a1452e1cfa2f6885",
+            "email": "phanvanhoan54cntt@gmail.com",
+            "phone": "01635098229",
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mzc1MDM4MDgsImlzcyI6Imh0dHA6XC9cL2VjMi0xOC0yMjMtMTU1LTIyNC51cy1lYXN0LTIuY29tcHV0ZS5hbWF6b25hd3MuY29tIiwiYXVkIjoiaHR0cDpcL1wvZWMyLTE4LTIyMy0xNTUtMjI0LnVzLWVhc3QtMi5jb21wdXRlLmFtYXpvbmF3cy5jb20iLCJuYmYiOjE1Mzc1MDM4MDgsImV4cCI6MTU0MDA5NTgwOCwiZGF0YSI6eyJ1c2VybmFtZSI6InBoYW52YW5ob2FuNTRjbnR0QGdtYWlsLmNvbSIsImxhc3RMb2dpbkF0IjoxNTM3NTAzODA4fSwianRpIjp7IiRvaWQiOiI1YmE0NzI0MGExNDUyZTFjZmEyZjY4ODUifX0.30B68WLz0d_3ySpgcLrRU8IEncAhMnAvlcwoPvlknCk",
+            "created_at": "2018-09-21 04:23:28",
+            "updated_at": "2018-09-21 06:12:18",
+            "profile": {
+                "name": "Phan Hoàn",
+                "public_email": "phanvanhoan54cntt@gmail.com",
+                "avatar": null,
+                "location": null,
+                "website": null
+            }
+        }
+    },
+    "status": 200
+}

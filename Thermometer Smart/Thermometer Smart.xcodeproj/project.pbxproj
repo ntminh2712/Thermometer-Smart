@@ -1,0 +1,989 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1092E622939E5E006DA686 /* SearchingBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1092E522939E5E006DA686 /* SearchingBluetoothViewController.swift */; };
+		4C1092EB2293A5D9006DA686 /* SearchingBluetoothPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1092EA2293A5D9006DA686 /* SearchingBluetoothPresenter.swift */; };
+		4C1092ED2293A5F2006DA686 /* SearchingBluetoothConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1092EC2293A5F2006DA686 /* SearchingBluetoothConfiguration.swift */; };
+		4C1092EF2293A607006DA686 /* SearchingBluetoothViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1092EE2293A607006DA686 /* SearchingBluetoothViewRouter.swift */; };
+		4C1092F32293AC8E006DA686 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1092F12293AC8E006DA686 /* DeviceTableViewCell.swift */; };
+		4C1092F42293AC8E006DA686 /* DeviceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C1092F22293AC8E006DA686 /* DeviceTableViewCell.xib */; };
+		4C1092FC2293B36E006DA686 /* ThermometerRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1092F72293B36E006DA686 /* ThermometerRate.swift */; };
+		4C1092FD2293B36E006DA686 /* DisplayPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1092F82293B36E006DA686 /* DisplayPeripheral.swift */; };
+		4C1092FE2293B36E006DA686 /* SensorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1092F92293B36E006DA686 /* SensorEntity.swift */; };
+		4C1092FF2293B36E006DA686 /* ThermometerRateMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1092FA2293B36E006DA686 /* ThermometerRateMonitor.swift */; };
+		4C1093022293B4D0006DA686 /* MacAddressEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1093012293B4D0006DA686 /* MacAddressEntity.swift */; };
+		4C1093072293B4ED006DA686 /* ObjectTemperatureWarning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1093042293B4ED006DA686 /* ObjectTemperatureWarning.swift */; };
+		4C1093082293B4ED006DA686 /* TemperatureWarningEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1093052293B4ED006DA686 /* TemperatureWarningEntity.swift */; };
+		4C1093092293B4ED006DA686 /* DataTemperatureWarning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1093062293B4ED006DA686 /* DataTemperatureWarning.swift */; };
+		4C10930B2293B565006DA686 /* DeviceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C10930A2293B565006DA686 /* DeviceEntity.swift */; };
+		4C1093102293BB4E006DA686 /* alarm_tone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C10930D2293BB4E006DA686 /* alarm_tone.mp3 */; };
+		4C1093112293BB4E006DA686 /* baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C10930E2293BB4E006DA686 /* baby.mp3 */; };
+		4C1093122293BB4E006DA686 /* alarm_tone_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C10930F2293BB4E006DA686 /* alarm_tone_2.mp3 */; };
+		4C288F0E22938EA200CEB1E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F0D22938EA200CEB1E8 /* AppDelegate.swift */; };
+		4C288F1122938EA200CEB1E8 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F1022938EA200CEB1E8 /* Result.swift */; };
+		4C288F1422938EA200CEB1E8 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F1322938EA200CEB1E8 /* UserEntity.swift */; };
+		4C288F1622938EA200CEB1E8 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F1522938EA200CEB1E8 /* Book.swift */; };
+		4C288F1922938EA200CEB1E8 /* ItemRegionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F1822938EA200CEB1E8 /* ItemRegionEntity.swift */; };
+		4C288F1B22938EA200CEB1E8 /* RegionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F1A22938EA200CEB1E8 /* RegionEntity.swift */; };
+		4C288F1D22938EA200CEB1E8 /* SnippetRegionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F1C22938EA200CEB1E8 /* SnippetRegionEntity.swift */; };
+		4C288F2022938EA200CEB1E8 /* DefautThumbnailsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F1F22938EA200CEB1E8 /* DefautThumbnailsEntity.swift */; };
+		4C288F2222938EA200CEB1E8 /* HighThumbnailsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F2122938EA200CEB1E8 /* HighThumbnailsEntity.swift */; };
+		4C288F2422938EA200CEB1E8 /* IdItemListPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F2322938EA200CEB1E8 /* IdItemListPlay.swift */; };
+		4C288F2622938EA200CEB1E8 /* ItemPlayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F2522938EA200CEB1E8 /* ItemPlayList.swift */; };
+		4C288F2822938EA200CEB1E8 /* ListPlayEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F2722938EA200CEB1E8 /* ListPlayEntity.swift */; };
+		4C288F2A22938EA200CEB1E8 /* MediumThumbnailsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F2922938EA200CEB1E8 /* MediumThumbnailsEntity.swift */; };
+		4C288F2C22938EA200CEB1E8 /* PageInfoListPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F2B22938EA200CEB1E8 /* PageInfoListPlay.swift */; };
+		4C288F2E22938EA200CEB1E8 /* SnippetItemListPlayEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F2D22938EA200CEB1E8 /* SnippetItemListPlayEntity.swift */; };
+		4C288F3022938EA200CEB1E8 /* ThumbnailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F2F22938EA200CEB1E8 /* ThumbnailEntity.swift */; };
+		4C288F3322938EA200CEB1E8 /* DisplayCountryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F3222938EA200CEB1E8 /* DisplayCountryList.swift */; };
+		4C288F3522938EA200CEB1E8 /* PlaylistUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F3422938EA200CEB1E8 /* PlaylistUseCase.swift */; };
+		4C288F3822938EA200CEB1E8 /* CountryGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F3722938EA200CEB1E8 /* CountryGateway.swift */; };
+		4C288F3A22938EA200CEB1E8 /* UserGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F3922938EA200CEB1E8 /* UserGateway.swift */; };
+		4C288F3C22938EA200CEB1E8 /* PlaylistGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F3B22938EA200CEB1E8 /* PlaylistGateway.swift */; };
+		4C288F3F22938EA200CEB1E8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F3E22938EA200CEB1E8 /* CardView.swift */; };
+		4C288F4122938EA200CEB1E8 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F4022938EA200CEB1E8 /* Modal.swift */; };
+		4C288F4522938EA200CEB1E8 /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F4422938EA200CEB1E8 /* ApiProvider.swift */; };
+		4C288F4722938EA200CEB1E8 /* TSAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F4622938EA200CEB1E8 /* TSAPI.swift */; };
+		4C288F4922938EA200CEB1E8 /* TSAPITargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F4822938EA200CEB1E8 /* TSAPITargetType.swift */; };
+		4C288F4C22938EA200CEB1E8 /* ApiCountryGeteway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F4B22938EA200CEB1E8 /* ApiCountryGeteway.swift */; };
+		4C288F4E22938EA200CEB1E8 /* ApiPlaylistGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F4D22938EA200CEB1E8 /* ApiPlaylistGateway.swift */; };
+		4C288F5122938EA200CEB1E8 /* CacheUsersGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F5022938EA200CEB1E8 /* CacheUsersGateway.swift */; };
+		4C288F5422938EA200CEB1E8 /* RealmConnectorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F5322938EA200CEB1E8 /* RealmConnectorManager.swift */; };
+		4C288F5722938EA200CEB1E8 /* LocalPersistenceUserGeteway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F5622938EA200CEB1E8 /* LocalPersistenceUserGeteway.swift */; };
+		4C288F5A22938EA200CEB1E8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F5922938EA200CEB1E8 /* Config.swift */; };
+		4C288F5C22938EA200CEB1E8 /* Demo.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C288F5B22938EA200CEB1E8 /* Demo.json */; };
+		4C288F5E22938EA200CEB1E8 /* LoadingHUDControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F5D22938EA200CEB1E8 /* LoadingHUDControl.swift */; };
+		4C288F6022938EA200CEB1E8 /* TSDateTranform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F5F22938EA200CEB1E8 /* TSDateTranform.swift */; };
+		4C288F6222938EA200CEB1E8 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F6122938EA200CEB1E8 /* ViewRouter.swift */; };
+		4C288F6522938EA200CEB1E8 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F6422938EA200CEB1E8 /* Array+Extension.swift */; };
+		4C288F6722938EA200CEB1E8 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F6622938EA200CEB1E8 /* UIDevice+Extension.swift */; };
+		4C288F6B22938EA200CEB1E8 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F6A22938EA200CEB1E8 /* Date+Extension.swift */; };
+		4C288F6D22938EA200CEB1E8 /* Label+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F6C22938EA200CEB1E8 /* Label+Extension.swift */; };
+		4C288F6F22938EA200CEB1E8 /* NumberFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F6E22938EA200CEB1E8 /* NumberFormatter+Extension.swift */; };
+		4C288F7122938EA200CEB1E8 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F7022938EA200CEB1E8 /* UIImage+Extension.swift */; };
+		4C288F7322938EA200CEB1E8 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F7222938EA200CEB1E8 /* UITableView+Extension.swift */; };
+		4C288F7522938EA200CEB1E8 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F7422938EA200CEB1E8 /* UIView+Extension.swift */; };
+		4C288F7722938EA200CEB1E8 /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F7622938EA200CEB1E8 /* TextField+Extension.swift */; };
+		4C288F7922938EA200CEB1E8 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F7822938EA200CEB1E8 /* String+Extension.swift */; };
+		4C288F7E22938EA200CEB1E8 /* ConstantDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F7D22938EA200CEB1E8 /* ConstantDefine.swift */; };
+		4C288F8022938EA200CEB1E8 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F7F22938EA200CEB1E8 /* Define.swift */; };
+		4C288F8222938EA200CEB1E8 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F8122938EA200CEB1E8 /* Log.swift */; };
+		4C288F8622938EA200CEB1E8 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F8522938EA200CEB1E8 /* DatePickerDialog.swift */; };
+		4C288F8822938EA200CEB1E8 /* PickerViewDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F8722938EA200CEB1E8 /* PickerViewDialog.swift */; };
+		4C288F8B22938EA200CEB1E8 /* Observable+ObjectMapper.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F8A22938EA200CEB1E8 /* Observable+ObjectMapper.swift.swift */; };
+		4C288F8D22938EA200CEB1E8 /* Response+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F8C22938EA200CEB1E8 /* Response+ObjectMapper.swift */; };
+		4C288F9122938EA200CEB1E8 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F9022938EA200CEB1E8 /* CAPSPageMenu.swift */; };
+		4C288F9322938EA200CEB1E8 /* CAPSPageMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F9222938EA200CEB1E8 /* CAPSPageMenu+Options.swift */; };
+		4C288F9522938EA200CEB1E8 /* CAPSPageMenu+UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F9422938EA200CEB1E8 /* CAPSPageMenu+UIConfiguration.swift */; };
+		4C288F9722938EA200CEB1E8 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F9622938EA200CEB1E8 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */; };
+		4C288F9922938EA200CEB1E8 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F9822938EA200CEB1E8 /* CAPSPageMenu+UIScrollViewDelegate.swift */; };
+		4C288F9B22938EA200CEB1E8 /* CAPSPageMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F9A22938EA200CEB1E8 /* CAPSPageMenuConfiguration.swift */; };
+		4C288F9D22938EA200CEB1E8 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F9C22938EA200CEB1E8 /* MenuItemView.swift */; };
+		4C288FA022938EA200CEB1E8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F9F22938EA200CEB1E8 /* BaseViewController.swift */; };
+		4C288FC322938EA200CEB1E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C288FC122938EA200CEB1E8 /* Main.storyboard */; };
+		4C288FC522938EA300CEB1E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C288FC422938EA300CEB1E8 /* Assets.xcassets */; };
+		4C288FC822938EA300CEB1E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C288FC622938EA300CEB1E8 /* LaunchScreen.storyboard */; };
+		4C4D67232293FB6300ED7815 /* BluetoothService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D67222293FB6300ED7815 /* BluetoothService.swift */; };
+		75F6FBFA705A17DE7CD85256 /* Pods_Thermometer_Smart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE3D0179954E93006C0A91F /* Pods_Thermometer_Smart.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C1092E522939E5E006DA686 /* SearchingBluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingBluetoothViewController.swift; sourceTree = "<group>"; };
+		4C1092EA2293A5D9006DA686 /* SearchingBluetoothPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingBluetoothPresenter.swift; sourceTree = "<group>"; };
+		4C1092EC2293A5F2006DA686 /* SearchingBluetoothConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingBluetoothConfiguration.swift; sourceTree = "<group>"; };
+		4C1092EE2293A607006DA686 /* SearchingBluetoothViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingBluetoothViewRouter.swift; sourceTree = "<group>"; };
+		4C1092F12293AC8E006DA686 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		4C1092F22293AC8E006DA686 /* DeviceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceTableViewCell.xib; sourceTree = "<group>"; };
+		4C1092F72293B36E006DA686 /* ThermometerRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermometerRate.swift; sourceTree = "<group>"; };
+		4C1092F82293B36E006DA686 /* DisplayPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayPeripheral.swift; sourceTree = "<group>"; };
+		4C1092F92293B36E006DA686 /* SensorEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorEntity.swift; sourceTree = "<group>"; };
+		4C1092FA2293B36E006DA686 /* ThermometerRateMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermometerRateMonitor.swift; sourceTree = "<group>"; };
+		4C1093012293B4D0006DA686 /* MacAddressEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacAddressEntity.swift; sourceTree = "<group>"; };
+		4C1093042293B4ED006DA686 /* ObjectTemperatureWarning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectTemperatureWarning.swift; sourceTree = "<group>"; };
+		4C1093052293B4ED006DA686 /* TemperatureWarningEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureWarningEntity.swift; sourceTree = "<group>"; };
+		4C1093062293B4ED006DA686 /* DataTemperatureWarning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTemperatureWarning.swift; sourceTree = "<group>"; };
+		4C10930A2293B565006DA686 /* DeviceEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceEntity.swift; sourceTree = "<group>"; };
+		4C10930D2293BB4E006DA686 /* alarm_tone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_tone.mp3; sourceTree = "<group>"; };
+		4C10930E2293BB4E006DA686 /* baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = baby.mp3; sourceTree = "<group>"; };
+		4C10930F2293BB4E006DA686 /* alarm_tone_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_tone_2.mp3; sourceTree = "<group>"; };
+		4C288F0A22938EA200CEB1E8 /* Thermometer Smart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thermometer Smart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C288F0D22938EA200CEB1E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C288F1022938EA200CEB1E8 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Core/Result.swift; sourceTree = "<group>"; };
+		4C288F1322938EA200CEB1E8 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserEntity.swift; path = Core/Entities/UserEntity.swift; sourceTree = "<group>"; };
+		4C288F1522938EA200CEB1E8 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Book.swift; path = Core/Entities/Book.swift; sourceTree = "<group>"; };
+		4C288F1822938EA200CEB1E8 /* ItemRegionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItemRegionEntity.swift; path = Core/Entities/Country/ItemRegionEntity.swift; sourceTree = "<group>"; };
+		4C288F1A22938EA200CEB1E8 /* RegionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegionEntity.swift; path = Core/Entities/Country/RegionEntity.swift; sourceTree = "<group>"; };
+		4C288F1C22938EA200CEB1E8 /* SnippetRegionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SnippetRegionEntity.swift; path = Core/Entities/Country/SnippetRegionEntity.swift; sourceTree = "<group>"; };
+		4C288F1F22938EA200CEB1E8 /* DefautThumbnailsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DefautThumbnailsEntity.swift; path = Core/Entities/ListPlay/DefautThumbnailsEntity.swift; sourceTree = "<group>"; };
+		4C288F2122938EA200CEB1E8 /* HighThumbnailsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HighThumbnailsEntity.swift; path = Core/Entities/ListPlay/HighThumbnailsEntity.swift; sourceTree = "<group>"; };
+		4C288F2322938EA200CEB1E8 /* IdItemListPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IdItemListPlay.swift; path = Core/Entities/ListPlay/IdItemListPlay.swift; sourceTree = "<group>"; };
+		4C288F2522938EA200CEB1E8 /* ItemPlayList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItemPlayList.swift; path = Core/Entities/ListPlay/ItemPlayList.swift; sourceTree = "<group>"; };
+		4C288F2722938EA200CEB1E8 /* ListPlayEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListPlayEntity.swift; path = Core/Entities/ListPlay/ListPlayEntity.swift; sourceTree = "<group>"; };
+		4C288F2922938EA200CEB1E8 /* MediumThumbnailsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MediumThumbnailsEntity.swift; path = Core/Entities/ListPlay/MediumThumbnailsEntity.swift; sourceTree = "<group>"; };
+		4C288F2B22938EA200CEB1E8 /* PageInfoListPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PageInfoListPlay.swift; path = Core/Entities/ListPlay/PageInfoListPlay.swift; sourceTree = "<group>"; };
+		4C288F2D22938EA200CEB1E8 /* SnippetItemListPlayEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SnippetItemListPlayEntity.swift; path = Core/Entities/ListPlay/SnippetItemListPlayEntity.swift; sourceTree = "<group>"; };
+		4C288F2F22938EA200CEB1E8 /* ThumbnailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThumbnailEntity.swift; path = Core/Entities/ListPlay/ThumbnailEntity.swift; sourceTree = "<group>"; };
+		4C288F3222938EA200CEB1E8 /* DisplayCountryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DisplayCountryList.swift; path = Core/UseCases/DisplayCountryList.swift; sourceTree = "<group>"; };
+		4C288F3422938EA200CEB1E8 /* PlaylistUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaylistUseCase.swift; path = Core/UseCases/PlaylistUseCase.swift; sourceTree = "<group>"; };
+		4C288F3722938EA200CEB1E8 /* CountryGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CountryGateway.swift; path = Core/Gateways/CountryGateway.swift; sourceTree = "<group>"; };
+		4C288F3922938EA200CEB1E8 /* UserGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserGateway.swift; path = Core/Gateways/UserGateway.swift; sourceTree = "<group>"; };
+		4C288F3B22938EA200CEB1E8 /* PlaylistGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaylistGateway.swift; path = Core/Gateways/PlaylistGateway.swift; sourceTree = "<group>"; };
+		4C288F3E22938EA200CEB1E8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = CustomView/CardView.swift; sourceTree = "<group>"; };
+		4C288F4022938EA200CEB1E8 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Modal.swift; path = CustomView/Modal.swift; sourceTree = "<group>"; };
+		4C288F4422938EA200CEB1E8 /* ApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApiProvider.swift; path = EntityGateway/API/ApiProvider.swift; sourceTree = "<group>"; };
+		4C288F4622938EA200CEB1E8 /* TSAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TSAPI.swift; path = EntityGateway/API/TSAPI.swift; sourceTree = "<group>"; };
+		4C288F4822938EA200CEB1E8 /* TSAPITargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TSAPITargetType.swift; path = EntityGateway/API/TSAPITargetType.swift; sourceTree = "<group>"; };
+		4C288F4B22938EA200CEB1E8 /* ApiCountryGeteway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApiCountryGeteway.swift; path = EntityGateway/API/Gateways/ApiCountryGeteway.swift; sourceTree = "<group>"; };
+		4C288F4D22938EA200CEB1E8 /* ApiPlaylistGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApiPlaylistGateway.swift; path = EntityGateway/API/Gateways/ApiPlaylistGateway.swift; sourceTree = "<group>"; };
+		4C288F5022938EA200CEB1E8 /* CacheUsersGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CacheUsersGateway.swift; path = EntityGateway/Cache/CacheUsersGateway.swift; sourceTree = "<group>"; };
+		4C288F5322938EA200CEB1E8 /* RealmConnectorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RealmConnectorManager.swift; path = EntityGateway/LocalPersistence/RealmConnectorManager.swift; sourceTree = "<group>"; };
+		4C288F5622938EA200CEB1E8 /* LocalPersistenceUserGeteway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocalPersistenceUserGeteway.swift; path = EntityGateway/LocalPersistence/Gateways/LocalPersistenceUserGeteway.swift; sourceTree = "<group>"; };
+		4C288F5922938EA200CEB1E8 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Helper/Config.swift; sourceTree = "<group>"; };
+		4C288F5B22938EA200CEB1E8 /* Demo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Demo.json; path = Helper/Demo.json; sourceTree = "<group>"; };
+		4C288F5D22938EA200CEB1E8 /* LoadingHUDControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoadingHUDControl.swift; path = Helper/LoadingHUDControl.swift; sourceTree = "<group>"; };
+		4C288F5F22938EA200CEB1E8 /* TSDateTranform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TSDateTranform.swift; path = Helper/TSDateTranform.swift; sourceTree = "<group>"; };
+		4C288F6122938EA200CEB1E8 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewRouter.swift; path = Helper/ViewRouter.swift; sourceTree = "<group>"; };
+		4C288F6422938EA200CEB1E8 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Array+Extension.swift"; path = "Helper/Extension/Array+Extension.swift"; sourceTree = "<group>"; };
+		4C288F6622938EA200CEB1E8 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIDevice+Extension.swift"; path = "Helper/Extension/UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		4C288F6A22938EA200CEB1E8 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Date+Extension.swift"; path = "Helper/Extension/Date+Extension.swift"; sourceTree = "<group>"; };
+		4C288F6C22938EA200CEB1E8 /* Label+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Label+Extension.swift"; path = "Helper/Extension/Label+Extension.swift"; sourceTree = "<group>"; };
+		4C288F6E22938EA200CEB1E8 /* NumberFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NumberFormatter+Extension.swift"; path = "Helper/Extension/NumberFormatter+Extension.swift"; sourceTree = "<group>"; };
+		4C288F7022938EA200CEB1E8 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImage+Extension.swift"; path = "Helper/Extension/UIImage+Extension.swift"; sourceTree = "<group>"; };
+		4C288F7222938EA200CEB1E8 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UITableView+Extension.swift"; path = "Helper/Extension/UITableView+Extension.swift"; sourceTree = "<group>"; };
+		4C288F7422938EA200CEB1E8 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "Helper/Extension/UIView+Extension.swift"; sourceTree = "<group>"; };
+		4C288F7622938EA200CEB1E8 /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TextField+Extension.swift"; path = "Helper/Extension/TextField+Extension.swift"; sourceTree = "<group>"; };
+		4C288F7822938EA200CEB1E8 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "Helper/Extension/String+Extension.swift"; sourceTree = "<group>"; };
+		4C288F7D22938EA200CEB1E8 /* ConstantDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConstantDefine.swift; path = Helper/Utils/ConstantDefine.swift; sourceTree = "<group>"; };
+		4C288F7F22938EA200CEB1E8 /* Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Define.swift; path = Helper/Utils/Define.swift; sourceTree = "<group>"; };
+		4C288F8122938EA200CEB1E8 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Helper/Utils/Log.swift; sourceTree = "<group>"; };
+		4C288F8522938EA200CEB1E8 /* DatePickerDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DatePickerDialog.swift; path = Libarary/DatePicker/DatePickerDialog.swift; sourceTree = "<group>"; };
+		4C288F8722938EA200CEB1E8 /* PickerViewDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PickerViewDialog.swift; path = Libarary/DatePicker/PickerViewDialog.swift; sourceTree = "<group>"; };
+		4C288F8A22938EA200CEB1E8 /* Observable+ObjectMapper.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Observable+ObjectMapper.swift.swift"; path = "Libarary/Moya-ObjectMapper/Observable+ObjectMapper.swift.swift"; sourceTree = "<group>"; };
+		4C288F8C22938EA200CEB1E8 /* Response+ObjectMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Response+ObjectMapper.swift"; path = "Libarary/Moya-ObjectMapper/Response+ObjectMapper.swift"; sourceTree = "<group>"; };
+		4C288F9022938EA200CEB1E8 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CAPSPageMenu.swift; path = Libarary/PageMenu/Classes/CAPSPageMenu.swift; sourceTree = "<group>"; };
+		4C288F9222938EA200CEB1E8 /* CAPSPageMenu+Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CAPSPageMenu+Options.swift"; path = "Libarary/PageMenu/Classes/CAPSPageMenu+Options.swift"; sourceTree = "<group>"; };
+		4C288F9422938EA200CEB1E8 /* CAPSPageMenu+UIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CAPSPageMenu+UIConfiguration.swift"; path = "Libarary/PageMenu/Classes/CAPSPageMenu+UIConfiguration.swift"; sourceTree = "<group>"; };
+		4C288F9622938EA200CEB1E8 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CAPSPageMenu+UIGestureRecognizerDelegate.swift"; path = "Libarary/PageMenu/Classes/CAPSPageMenu+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
+		4C288F9822938EA200CEB1E8 /* CAPSPageMenu+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CAPSPageMenu+UIScrollViewDelegate.swift"; path = "Libarary/PageMenu/Classes/CAPSPageMenu+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		4C288F9A22938EA200CEB1E8 /* CAPSPageMenuConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CAPSPageMenuConfiguration.swift; path = Libarary/PageMenu/Classes/CAPSPageMenuConfiguration.swift; sourceTree = "<group>"; };
+		4C288F9C22938EA200CEB1E8 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuItemView.swift; path = Libarary/PageMenu/Classes/MenuItemView.swift; sourceTree = "<group>"; };
+		4C288F9F22938EA200CEB1E8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Scenes/BaseViewController.swift; sourceTree = "<group>"; };
+		4C288FBE22938EA200CEB1E8 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4C288FC222938EA200CEB1E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C288FC422938EA300CEB1E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C288FC722938EA300CEB1E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C288FC922938EA300CEB1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4D67222293FB6300ED7815 /* BluetoothService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothService.swift; sourceTree = "<group>"; };
+		C433500A0A3D19410C723AAB /* Pods-Thermometer Smart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thermometer Smart.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thermometer Smart/Pods-Thermometer Smart.release.xcconfig"; sourceTree = "<group>"; };
+		DEE3D0179954E93006C0A91F /* Pods_Thermometer_Smart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thermometer_Smart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53ED2950A8FC32FE0D3F72A /* Pods-Thermometer Smart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thermometer Smart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thermometer Smart/Pods-Thermometer Smart.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C288F0722938EA200CEB1E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F6FBFA705A17DE7CD85256 /* Pods_Thermometer_Smart.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C1092E72293A573006DA686 /* SearchingBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				4C1092F02293AC6F006DA686 /* Cell */,
+				4C1092E522939E5E006DA686 /* SearchingBluetoothViewController.swift */,
+				4C1092EA2293A5D9006DA686 /* SearchingBluetoothPresenter.swift */,
+				4C1092EC2293A5F2006DA686 /* SearchingBluetoothConfiguration.swift */,
+				4C1092EE2293A607006DA686 /* SearchingBluetoothViewRouter.swift */,
+			);
+			name = SearchingBluetooth;
+			sourceTree = "<group>";
+		};
+		4C1092F02293AC6F006DA686 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4C1092F12293AC8E006DA686 /* DeviceTableViewCell.swift */,
+				4C1092F22293AC8E006DA686 /* DeviceTableViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		4C1092F52293B36E006DA686 /* bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				4C1092F62293B36E006DA686 /* Entity */,
+				4C1092FA2293B36E006DA686 /* ThermometerRateMonitor.swift */,
+			);
+			path = bluetooth;
+			sourceTree = "<group>";
+		};
+		4C1092F62293B36E006DA686 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				4C1092F72293B36E006DA686 /* ThermometerRate.swift */,
+				4C1092F82293B36E006DA686 /* DisplayPeripheral.swift */,
+				4C1092F92293B36E006DA686 /* SensorEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		4C1093032293B4ED006DA686 /* TemperatureWarnings */ = {
+			isa = PBXGroup;
+			children = (
+				4C1093042293B4ED006DA686 /* ObjectTemperatureWarning.swift */,
+				4C1093052293B4ED006DA686 /* TemperatureWarningEntity.swift */,
+				4C1093062293B4ED006DA686 /* DataTemperatureWarning.swift */,
+			);
+			path = TemperatureWarnings;
+			sourceTree = "<group>";
+		};
+		4C10930C2293BB4E006DA686 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				4C10930D2293BB4E006DA686 /* alarm_tone.mp3 */,
+				4C10930E2293BB4E006DA686 /* baby.mp3 */,
+				4C10930F2293BB4E006DA686 /* alarm_tone_2.mp3 */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+		4C288F0122938EA100CEB1E8 = {
+			isa = PBXGroup;
+			children = (
+				4C288F0C22938EA200CEB1E8 /* Thermometer Smart */,
+				4C288F0B22938EA200CEB1E8 /* Products */,
+				AAD9CCCFF3ABE48AA45617B6 /* Pods */,
+				C59A7FB250C0B93E6D1713C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C288F0B22938EA200CEB1E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F0A22938EA200CEB1E8 /* Thermometer Smart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C288F0C22938EA200CEB1E8 /* Thermometer Smart */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F0D22938EA200CEB1E8 /* AppDelegate.swift */,
+				4C288FBE22938EA200CEB1E8 /* Podfile */,
+				4C288FC122938EA200CEB1E8 /* Main.storyboard */,
+				4C288FC422938EA300CEB1E8 /* Assets.xcassets */,
+				4C288FC622938EA300CEB1E8 /* LaunchScreen.storyboard */,
+				4C288FC922938EA300CEB1E8 /* Info.plist */,
+				4C288F0F22938EA200CEB1E8 /* Core */,
+				4C288F3D22938EA200CEB1E8 /* CustomView */,
+				4C288F4222938EA200CEB1E8 /* EntityGateway */,
+				4C10930C2293BB4E006DA686 /* sound */,
+				4C288F5822938EA200CEB1E8 /* Helper */,
+				4C288F8322938EA200CEB1E8 /* Libarary */,
+				4C1092F52293B36E006DA686 /* bluetooth */,
+				4C288F9E22938EA200CEB1E8 /* Scenes */,
+			);
+			path = "Thermometer Smart";
+			sourceTree = "<group>";
+		};
+		4C288F0F22938EA200CEB1E8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F1022938EA200CEB1E8 /* Result.swift */,
+				4C288F1222938EA200CEB1E8 /* Entities */,
+				4C288F3122938EA200CEB1E8 /* UseCases */,
+				4C288F3622938EA200CEB1E8 /* Gateways */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		4C288F1222938EA200CEB1E8 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				4C1093012293B4D0006DA686 /* MacAddressEntity.swift */,
+				4C288F1322938EA200CEB1E8 /* UserEntity.swift */,
+				4C288F1522938EA200CEB1E8 /* Book.swift */,
+				4C1093032293B4ED006DA686 /* TemperatureWarnings */,
+				4C288F1722938EA200CEB1E8 /* Country */,
+				4C288F1E22938EA200CEB1E8 /* ListPlay */,
+				4C10930A2293B565006DA686 /* DeviceEntity.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		4C288F1722938EA200CEB1E8 /* Country */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F1822938EA200CEB1E8 /* ItemRegionEntity.swift */,
+				4C288F1A22938EA200CEB1E8 /* RegionEntity.swift */,
+				4C288F1C22938EA200CEB1E8 /* SnippetRegionEntity.swift */,
+			);
+			name = Country;
+			sourceTree = "<group>";
+		};
+		4C288F1E22938EA200CEB1E8 /* ListPlay */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F1F22938EA200CEB1E8 /* DefautThumbnailsEntity.swift */,
+				4C288F2122938EA200CEB1E8 /* HighThumbnailsEntity.swift */,
+				4C288F2322938EA200CEB1E8 /* IdItemListPlay.swift */,
+				4C288F2522938EA200CEB1E8 /* ItemPlayList.swift */,
+				4C288F2722938EA200CEB1E8 /* ListPlayEntity.swift */,
+				4C288F2922938EA200CEB1E8 /* MediumThumbnailsEntity.swift */,
+				4C288F2B22938EA200CEB1E8 /* PageInfoListPlay.swift */,
+				4C288F2D22938EA200CEB1E8 /* SnippetItemListPlayEntity.swift */,
+				4C288F2F22938EA200CEB1E8 /* ThumbnailEntity.swift */,
+			);
+			name = ListPlay;
+			sourceTree = "<group>";
+		};
+		4C288F3122938EA200CEB1E8 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F3222938EA200CEB1E8 /* DisplayCountryList.swift */,
+				4C288F3422938EA200CEB1E8 /* PlaylistUseCase.swift */,
+			);
+			name = UseCases;
+			sourceTree = "<group>";
+		};
+		4C288F3622938EA200CEB1E8 /* Gateways */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F3722938EA200CEB1E8 /* CountryGateway.swift */,
+				4C288F3922938EA200CEB1E8 /* UserGateway.swift */,
+				4C288F3B22938EA200CEB1E8 /* PlaylistGateway.swift */,
+			);
+			name = Gateways;
+			sourceTree = "<group>";
+		};
+		4C288F3D22938EA200CEB1E8 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F3E22938EA200CEB1E8 /* CardView.swift */,
+				4C288F4022938EA200CEB1E8 /* Modal.swift */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
+		4C288F4222938EA200CEB1E8 /* EntityGateway */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F4322938EA200CEB1E8 /* API */,
+				4C288F4F22938EA200CEB1E8 /* Cache */,
+				4C288F5222938EA200CEB1E8 /* LocalPersistence */,
+			);
+			name = EntityGateway;
+			sourceTree = "<group>";
+		};
+		4C288F4322938EA200CEB1E8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F4422938EA200CEB1E8 /* ApiProvider.swift */,
+				4C288F4622938EA200CEB1E8 /* TSAPI.swift */,
+				4C288F4822938EA200CEB1E8 /* TSAPITargetType.swift */,
+				4C288F4A22938EA200CEB1E8 /* Gateways */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		4C288F4A22938EA200CEB1E8 /* Gateways */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F4B22938EA200CEB1E8 /* ApiCountryGeteway.swift */,
+				4C288F4D22938EA200CEB1E8 /* ApiPlaylistGateway.swift */,
+			);
+			name = Gateways;
+			sourceTree = "<group>";
+		};
+		4C288F4F22938EA200CEB1E8 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F5022938EA200CEB1E8 /* CacheUsersGateway.swift */,
+			);
+			name = Cache;
+			sourceTree = "<group>";
+		};
+		4C288F5222938EA200CEB1E8 /* LocalPersistence */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F5322938EA200CEB1E8 /* RealmConnectorManager.swift */,
+				4C288F5522938EA200CEB1E8 /* Gateways */,
+			);
+			name = LocalPersistence;
+			sourceTree = "<group>";
+		};
+		4C288F5522938EA200CEB1E8 /* Gateways */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F5622938EA200CEB1E8 /* LocalPersistenceUserGeteway.swift */,
+			);
+			name = Gateways;
+			sourceTree = "<group>";
+		};
+		4C288F5822938EA200CEB1E8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F5922938EA200CEB1E8 /* Config.swift */,
+				4C288F5B22938EA200CEB1E8 /* Demo.json */,
+				4C288F5D22938EA200CEB1E8 /* LoadingHUDControl.swift */,
+				4C288F5F22938EA200CEB1E8 /* TSDateTranform.swift */,
+				4C288F6122938EA200CEB1E8 /* ViewRouter.swift */,
+				4C288F6322938EA200CEB1E8 /* Extension */,
+				4C288F7C22938EA200CEB1E8 /* Utils */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		4C288F6322938EA200CEB1E8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F6422938EA200CEB1E8 /* Array+Extension.swift */,
+				4C288F6622938EA200CEB1E8 /* UIDevice+Extension.swift */,
+				4C288F6A22938EA200CEB1E8 /* Date+Extension.swift */,
+				4C288F6C22938EA200CEB1E8 /* Label+Extension.swift */,
+				4C288F6E22938EA200CEB1E8 /* NumberFormatter+Extension.swift */,
+				4C288F7022938EA200CEB1E8 /* UIImage+Extension.swift */,
+				4C288F7222938EA200CEB1E8 /* UITableView+Extension.swift */,
+				4C288F7422938EA200CEB1E8 /* UIView+Extension.swift */,
+				4C288F7622938EA200CEB1E8 /* TextField+Extension.swift */,
+				4C288F7822938EA200CEB1E8 /* String+Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		4C288F7C22938EA200CEB1E8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F7D22938EA200CEB1E8 /* ConstantDefine.swift */,
+				4C288F7F22938EA200CEB1E8 /* Define.swift */,
+				4C288F8122938EA200CEB1E8 /* Log.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		4C288F8322938EA200CEB1E8 /* Libarary */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F8422938EA200CEB1E8 /* DatePicker */,
+				4C288F8922938EA200CEB1E8 /* Moya-ObjectMapper */,
+				4C288F8E22938EA200CEB1E8 /* PageMenu */,
+			);
+			name = Libarary;
+			sourceTree = "<group>";
+		};
+		4C288F8422938EA200CEB1E8 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F8522938EA200CEB1E8 /* DatePickerDialog.swift */,
+				4C288F8722938EA200CEB1E8 /* PickerViewDialog.swift */,
+			);
+			name = DatePicker;
+			sourceTree = "<group>";
+		};
+		4C288F8922938EA200CEB1E8 /* Moya-ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F8A22938EA200CEB1E8 /* Observable+ObjectMapper.swift.swift */,
+				4C288F8C22938EA200CEB1E8 /* Response+ObjectMapper.swift */,
+			);
+			name = "Moya-ObjectMapper";
+			sourceTree = "<group>";
+		};
+		4C288F8E22938EA200CEB1E8 /* PageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F8F22938EA200CEB1E8 /* Classes */,
+			);
+			name = PageMenu;
+			sourceTree = "<group>";
+		};
+		4C288F8F22938EA200CEB1E8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4C288F9022938EA200CEB1E8 /* CAPSPageMenu.swift */,
+				4C288F9222938EA200CEB1E8 /* CAPSPageMenu+Options.swift */,
+				4C288F9422938EA200CEB1E8 /* CAPSPageMenu+UIConfiguration.swift */,
+				4C288F9622938EA200CEB1E8 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */,
+				4C288F9822938EA200CEB1E8 /* CAPSPageMenu+UIScrollViewDelegate.swift */,
+				4C288F9A22938EA200CEB1E8 /* CAPSPageMenuConfiguration.swift */,
+				4C288F9C22938EA200CEB1E8 /* MenuItemView.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		4C288F9E22938EA200CEB1E8 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4C1092E72293A573006DA686 /* SearchingBluetooth */,
+				4C288F9F22938EA200CEB1E8 /* BaseViewController.swift */,
+				4C4D67222293FB6300ED7815 /* BluetoothService.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		AAD9CCCFF3ABE48AA45617B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E53ED2950A8FC32FE0D3F72A /* Pods-Thermometer Smart.debug.xcconfig */,
+				C433500A0A3D19410C723AAB /* Pods-Thermometer Smart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C59A7FB250C0B93E6D1713C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEE3D0179954E93006C0A91F /* Pods_Thermometer_Smart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C288F0922938EA200CEB1E8 /* Thermometer Smart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C288FCC22938EA300CEB1E8 /* Build configuration list for PBXNativeTarget "Thermometer Smart" */;
+			buildPhases = (
+				74662AA68C9A1594BADF4645 /* [CP] Check Pods Manifest.lock */,
+				4C288F0622938EA200CEB1E8 /* Sources */,
+				4C288F0722938EA200CEB1E8 /* Frameworks */,
+				4C288F0822938EA200CEB1E8 /* Resources */,
+				98D5859C9136B684B8B6AB42 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Thermometer Smart";
+			productName = "Thermometer Smart";
+			productReference = 4C288F0A22938EA200CEB1E8 /* Thermometer Smart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C288F0222938EA100CEB1E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = MinhNT;
+				TargetAttributes = {
+					4C288F0922938EA200CEB1E8 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4C288F0522938EA100CEB1E8 /* Build configuration list for PBXProject "Thermometer Smart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C288F0122938EA100CEB1E8;
+			productRefGroup = 4C288F0B22938EA200CEB1E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C288F0922938EA200CEB1E8 /* Thermometer Smart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C288F0822938EA200CEB1E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C288F5C22938EA200CEB1E8 /* Demo.json in Resources */,
+				4C1093112293BB4E006DA686 /* baby.mp3 in Resources */,
+				4C1093122293BB4E006DA686 /* alarm_tone_2.mp3 in Resources */,
+				4C1092F42293AC8E006DA686 /* DeviceTableViewCell.xib in Resources */,
+				4C288FC822938EA300CEB1E8 /* LaunchScreen.storyboard in Resources */,
+				4C288FC322938EA200CEB1E8 /* Main.storyboard in Resources */,
+				4C1093102293BB4E006DA686 /* alarm_tone.mp3 in Resources */,
+				4C288FC522938EA300CEB1E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74662AA68C9A1594BADF4645 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thermometer Smart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98D5859C9136B684B8B6AB42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Thermometer Smart/Pods-Thermometer Smart-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MXParallaxHeader/MXParallaxHeader.framework",
+				"${BUILT_PRODUCTS_DIR}/MZAppearance/MZAppearance.framework",
+				"${BUILT_PRODUCTS_DIR}/MZFormSheetPresentationController/MZFormSheetPresentationController.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXParallaxHeader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZAppearance.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZFormSheetPresentationController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thermometer Smart/Pods-Thermometer Smart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C288F0622938EA200CEB1E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C288F1922938EA200CEB1E8 /* ItemRegionEntity.swift in Sources */,
+				4C288F8822938EA200CEB1E8 /* PickerViewDialog.swift in Sources */,
+				4C288F6B22938EA200CEB1E8 /* Date+Extension.swift in Sources */,
+				4C288F6022938EA200CEB1E8 /* TSDateTranform.swift in Sources */,
+				4C288F5422938EA200CEB1E8 /* RealmConnectorManager.swift in Sources */,
+				4C288F6522938EA200CEB1E8 /* Array+Extension.swift in Sources */,
+				4C10930B2293B565006DA686 /* DeviceEntity.swift in Sources */,
+				4C1093082293B4ED006DA686 /* TemperatureWarningEntity.swift in Sources */,
+				4C288F6F22938EA200CEB1E8 /* NumberFormatter+Extension.swift in Sources */,
+				4C288F3C22938EA200CEB1E8 /* PlaylistGateway.swift in Sources */,
+				4C1092F32293AC8E006DA686 /* DeviceTableViewCell.swift in Sources */,
+				4C288F3022938EA200CEB1E8 /* ThumbnailEntity.swift in Sources */,
+				4C288F9522938EA200CEB1E8 /* CAPSPageMenu+UIConfiguration.swift in Sources */,
+				4C288F7722938EA200CEB1E8 /* TextField+Extension.swift in Sources */,
+				4C288F6722938EA200CEB1E8 /* UIDevice+Extension.swift in Sources */,
+				4C1092ED2293A5F2006DA686 /* SearchingBluetoothConfiguration.swift in Sources */,
+				4C1093072293B4ED006DA686 /* ObjectTemperatureWarning.swift in Sources */,
+				4C288F3322938EA200CEB1E8 /* DisplayCountryList.swift in Sources */,
+				4C288F9322938EA200CEB1E8 /* CAPSPageMenu+Options.swift in Sources */,
+				4C288F7922938EA200CEB1E8 /* String+Extension.swift in Sources */,
+				4C288F1622938EA200CEB1E8 /* Book.swift in Sources */,
+				4C288F4122938EA200CEB1E8 /* Modal.swift in Sources */,
+				4C288F5722938EA200CEB1E8 /* LocalPersistenceUserGeteway.swift in Sources */,
+				4C288F9122938EA200CEB1E8 /* CAPSPageMenu.swift in Sources */,
+				4C288F8B22938EA200CEB1E8 /* Observable+ObjectMapper.swift.swift in Sources */,
+				4C288F7322938EA200CEB1E8 /* UITableView+Extension.swift in Sources */,
+				4C288F4722938EA200CEB1E8 /* TSAPI.swift in Sources */,
+				4C288F7122938EA200CEB1E8 /* UIImage+Extension.swift in Sources */,
+				4C288F1B22938EA200CEB1E8 /* RegionEntity.swift in Sources */,
+				4C288F1D22938EA200CEB1E8 /* SnippetRegionEntity.swift in Sources */,
+				4C288F6D22938EA200CEB1E8 /* Label+Extension.swift in Sources */,
+				4C1092FC2293B36E006DA686 /* ThermometerRate.swift in Sources */,
+				4C288F2622938EA200CEB1E8 /* ItemPlayList.swift in Sources */,
+				4C288F4522938EA200CEB1E8 /* ApiProvider.swift in Sources */,
+				4C1092FD2293B36E006DA686 /* DisplayPeripheral.swift in Sources */,
+				4C288F7522938EA200CEB1E8 /* UIView+Extension.swift in Sources */,
+				4C288F3522938EA200CEB1E8 /* PlaylistUseCase.swift in Sources */,
+				4C288F6222938EA200CEB1E8 /* ViewRouter.swift in Sources */,
+				4C288F2022938EA200CEB1E8 /* DefautThumbnailsEntity.swift in Sources */,
+				4C288F1122938EA200CEB1E8 /* Result.swift in Sources */,
+				4C288FA022938EA200CEB1E8 /* BaseViewController.swift in Sources */,
+				4C288F9B22938EA200CEB1E8 /* CAPSPageMenuConfiguration.swift in Sources */,
+				4C1093022293B4D0006DA686 /* MacAddressEntity.swift in Sources */,
+				4C288F2222938EA200CEB1E8 /* HighThumbnailsEntity.swift in Sources */,
+				4C288F2C22938EA200CEB1E8 /* PageInfoListPlay.swift in Sources */,
+				4C288F8222938EA200CEB1E8 /* Log.swift in Sources */,
+				4C288F1422938EA200CEB1E8 /* UserEntity.swift in Sources */,
+				4C288F0E22938EA200CEB1E8 /* AppDelegate.swift in Sources */,
+				4C288F4C22938EA200CEB1E8 /* ApiCountryGeteway.swift in Sources */,
+				4C4D67232293FB6300ED7815 /* BluetoothService.swift in Sources */,
+				4C288F9D22938EA200CEB1E8 /* MenuItemView.swift in Sources */,
+				4C288F8D22938EA200CEB1E8 /* Response+ObjectMapper.swift in Sources */,
+				4C288F4922938EA200CEB1E8 /* TSAPITargetType.swift in Sources */,
+				4C288F7E22938EA200CEB1E8 /* ConstantDefine.swift in Sources */,
+				4C288F2822938EA200CEB1E8 /* ListPlayEntity.swift in Sources */,
+				4C288F2A22938EA200CEB1E8 /* MediumThumbnailsEntity.swift in Sources */,
+				4C288F2422938EA200CEB1E8 /* IdItemListPlay.swift in Sources */,
+				4C1092FE2293B36E006DA686 /* SensorEntity.swift in Sources */,
+				4C288F8622938EA200CEB1E8 /* DatePickerDialog.swift in Sources */,
+				4C288F3A22938EA200CEB1E8 /* UserGateway.swift in Sources */,
+				4C288F9722938EA200CEB1E8 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
+				4C1092EB2293A5D9006DA686 /* SearchingBluetoothPresenter.swift in Sources */,
+				4C288F8022938EA200CEB1E8 /* Define.swift in Sources */,
+				4C288F2E22938EA200CEB1E8 /* SnippetItemListPlayEntity.swift in Sources */,
+				4C1093092293B4ED006DA686 /* DataTemperatureWarning.swift in Sources */,
+				4C288F4E22938EA200CEB1E8 /* ApiPlaylistGateway.swift in Sources */,
+				4C1092FF2293B36E006DA686 /* ThermometerRateMonitor.swift in Sources */,
+				4C288F5E22938EA200CEB1E8 /* LoadingHUDControl.swift in Sources */,
+				4C1092E622939E5E006DA686 /* SearchingBluetoothViewController.swift in Sources */,
+				4C288F3F22938EA200CEB1E8 /* CardView.swift in Sources */,
+				4C288F5A22938EA200CEB1E8 /* Config.swift in Sources */,
+				4C288F5122938EA200CEB1E8 /* CacheUsersGateway.swift in Sources */,
+				4C1092EF2293A607006DA686 /* SearchingBluetoothViewRouter.swift in Sources */,
+				4C288F3822938EA200CEB1E8 /* CountryGateway.swift in Sources */,
+				4C288F9922938EA200CEB1E8 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C288FC122938EA200CEB1E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C288FC222938EA200CEB1E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C288FC622938EA300CEB1E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C288FC722938EA300CEB1E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C288FCA22938EA300CEB1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C288FCB22938EA300CEB1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C288FCD22938EA300CEB1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E53ED2950A8FC32FE0D3F72A /* Pods-Thermometer Smart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64K93BPD8S;
+				INFOPLIST_FILE = "Thermometer Smart/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.veboladc.Thermometer-Smart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C288FCE22938EA300CEB1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C433500A0A3D19410C723AAB /* Pods-Thermometer Smart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64K93BPD8S;
+				INFOPLIST_FILE = "Thermometer Smart/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.veboladc.Thermometer-Smart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C288F0522938EA100CEB1E8 /* Build configuration list for PBXProject "Thermometer Smart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C288FCA22938EA300CEB1E8 /* Debug */,
+				4C288FCB22938EA300CEB1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C288FCC22938EA300CEB1E8 /* Build configuration list for PBXNativeTarget "Thermometer Smart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C288FCD22938EA300CEB1E8 /* Debug */,
+				4C288FCE22938EA300CEB1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C288F0222938EA100CEB1E8 /* Project object */;
+}

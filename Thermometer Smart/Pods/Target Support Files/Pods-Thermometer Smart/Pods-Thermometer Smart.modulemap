@@ -1,0 +1,6 @@
+framework module Pods_Thermometer_Smart {
+  umbrella header "Pods-Thermometer Smart-umbrella.h"
+
+  export *
+  module * { export * }
+}
