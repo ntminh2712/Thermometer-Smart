@@ -18,44 +18,17 @@
 		4C1092FE2293B36E006DA686 /* SensorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1092F92293B36E006DA686 /* SensorEntity.swift */; };
 		4C1092FF2293B36E006DA686 /* ThermometerRateMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1092FA2293B36E006DA686 /* ThermometerRateMonitor.swift */; };
 		4C1093022293B4D0006DA686 /* MacAddressEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1093012293B4D0006DA686 /* MacAddressEntity.swift */; };
-		4C1093072293B4ED006DA686 /* ObjectTemperatureWarning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1093042293B4ED006DA686 /* ObjectTemperatureWarning.swift */; };
-		4C1093082293B4ED006DA686 /* TemperatureWarningEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1093052293B4ED006DA686 /* TemperatureWarningEntity.swift */; };
-		4C1093092293B4ED006DA686 /* DataTemperatureWarning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1093062293B4ED006DA686 /* DataTemperatureWarning.swift */; };
 		4C10930B2293B565006DA686 /* DeviceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C10930A2293B565006DA686 /* DeviceEntity.swift */; };
 		4C1093102293BB4E006DA686 /* alarm_tone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C10930D2293BB4E006DA686 /* alarm_tone.mp3 */; };
 		4C1093112293BB4E006DA686 /* baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C10930E2293BB4E006DA686 /* baby.mp3 */; };
 		4C1093122293BB4E006DA686 /* alarm_tone_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C10930F2293BB4E006DA686 /* alarm_tone_2.mp3 */; };
 		4C288F0E22938EA200CEB1E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F0D22938EA200CEB1E8 /* AppDelegate.swift */; };
 		4C288F1122938EA200CEB1E8 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F1022938EA200CEB1E8 /* Result.swift */; };
-		4C288F1422938EA200CEB1E8 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F1322938EA200CEB1E8 /* UserEntity.swift */; };
-		4C288F1622938EA200CEB1E8 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F1522938EA200CEB1E8 /* Book.swift */; };
-		4C288F1922938EA200CEB1E8 /* ItemRegionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F1822938EA200CEB1E8 /* ItemRegionEntity.swift */; };
-		4C288F1B22938EA200CEB1E8 /* RegionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F1A22938EA200CEB1E8 /* RegionEntity.swift */; };
-		4C288F1D22938EA200CEB1E8 /* SnippetRegionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F1C22938EA200CEB1E8 /* SnippetRegionEntity.swift */; };
-		4C288F2022938EA200CEB1E8 /* DefautThumbnailsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F1F22938EA200CEB1E8 /* DefautThumbnailsEntity.swift */; };
-		4C288F2222938EA200CEB1E8 /* HighThumbnailsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F2122938EA200CEB1E8 /* HighThumbnailsEntity.swift */; };
-		4C288F2422938EA200CEB1E8 /* IdItemListPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F2322938EA200CEB1E8 /* IdItemListPlay.swift */; };
-		4C288F2622938EA200CEB1E8 /* ItemPlayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F2522938EA200CEB1E8 /* ItemPlayList.swift */; };
-		4C288F2822938EA200CEB1E8 /* ListPlayEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F2722938EA200CEB1E8 /* ListPlayEntity.swift */; };
-		4C288F2A22938EA200CEB1E8 /* MediumThumbnailsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F2922938EA200CEB1E8 /* MediumThumbnailsEntity.swift */; };
-		4C288F2C22938EA200CEB1E8 /* PageInfoListPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F2B22938EA200CEB1E8 /* PageInfoListPlay.swift */; };
-		4C288F2E22938EA200CEB1E8 /* SnippetItemListPlayEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F2D22938EA200CEB1E8 /* SnippetItemListPlayEntity.swift */; };
-		4C288F3022938EA200CEB1E8 /* ThumbnailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F2F22938EA200CEB1E8 /* ThumbnailEntity.swift */; };
-		4C288F3322938EA200CEB1E8 /* DisplayCountryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F3222938EA200CEB1E8 /* DisplayCountryList.swift */; };
-		4C288F3522938EA200CEB1E8 /* PlaylistUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F3422938EA200CEB1E8 /* PlaylistUseCase.swift */; };
-		4C288F3822938EA200CEB1E8 /* CountryGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F3722938EA200CEB1E8 /* CountryGateway.swift */; };
-		4C288F3A22938EA200CEB1E8 /* UserGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F3922938EA200CEB1E8 /* UserGateway.swift */; };
-		4C288F3C22938EA200CEB1E8 /* PlaylistGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F3B22938EA200CEB1E8 /* PlaylistGateway.swift */; };
 		4C288F3F22938EA200CEB1E8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F3E22938EA200CEB1E8 /* CardView.swift */; };
 		4C288F4122938EA200CEB1E8 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F4022938EA200CEB1E8 /* Modal.swift */; };
 		4C288F4522938EA200CEB1E8 /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F4422938EA200CEB1E8 /* ApiProvider.swift */; };
 		4C288F4722938EA200CEB1E8 /* TSAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F4622938EA200CEB1E8 /* TSAPI.swift */; };
 		4C288F4922938EA200CEB1E8 /* TSAPITargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F4822938EA200CEB1E8 /* TSAPITargetType.swift */; };
-		4C288F4C22938EA200CEB1E8 /* ApiCountryGeteway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F4B22938EA200CEB1E8 /* ApiCountryGeteway.swift */; };
-		4C288F4E22938EA200CEB1E8 /* ApiPlaylistGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F4D22938EA200CEB1E8 /* ApiPlaylistGateway.swift */; };
-		4C288F5122938EA200CEB1E8 /* CacheUsersGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F5022938EA200CEB1E8 /* CacheUsersGateway.swift */; };
-		4C288F5422938EA200CEB1E8 /* RealmConnectorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F5322938EA200CEB1E8 /* RealmConnectorManager.swift */; };
-		4C288F5722938EA200CEB1E8 /* LocalPersistenceUserGeteway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F5622938EA200CEB1E8 /* LocalPersistenceUserGeteway.swift */; };
 		4C288F5A22938EA200CEB1E8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F5922938EA200CEB1E8 /* Config.swift */; };
 		4C288F5C22938EA200CEB1E8 /* Demo.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C288F5B22938EA200CEB1E8 /* Demo.json */; };
 		4C288F5E22938EA200CEB1E8 /* LoadingHUDControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C288F5D22938EA200CEB1E8 /* LoadingHUDControl.swift */; };
@@ -90,8 +63,38 @@
 		4C288FC522938EA300CEB1E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C288FC422938EA300CEB1E8 /* Assets.xcassets */; };
 		4C288FC822938EA300CEB1E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C288FC622938EA300CEB1E8 /* LaunchScreen.storyboard */; };
 		4C4D67232293FB6300ED7815 /* BluetoothService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D67222293FB6300ED7815 /* BluetoothService.swift */; };
+		4C51224322955AA600BC02F6 /* PopupSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51224222955AA600BC02F6 /* PopupSettingsViewController.swift */; };
+		4C5122472295610E00BC02F6 /* RingToneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5122452295610E00BC02F6 /* RingToneTableViewCell.swift */; };
+		4C5122482295610E00BC02F6 /* RingToneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C5122462295610E00BC02F6 /* RingToneTableViewCell.xib */; };
+		4C655C3C22950581004C14A5 /* TemperatureEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C655C3B22950581004C14A5 /* TemperatureEntity.swift */; };
+		4C655C3E22950F38004C14A5 /* TemperaturePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C655C3D22950F38004C14A5 /* TemperaturePresenter.swift */; };
+		4C655C4022950F4C004C14A5 /* TemperatureConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C655C3F22950F4C004C14A5 /* TemperatureConfig.swift */; };
+		4C655C4222950F59004C14A5 /* TemperatureViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C655C4122950F59004C14A5 /* TemperatureViewRouter.swift */; };
+		4C8EA5BC2294F728001C838F /* TemperatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8EA5BB2294F728001C838F /* TemperatureViewController.swift */; };
 		75F6FBFA705A17DE7CD85256 /* Pods_Thermometer_Smart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE3D0179954E93006C0A91F /* Pods_Thermometer_Smart.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C8EA5D42294FCD4001C838F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8EA5DB2294FF43001C838F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4C1092E522939E5E006DA686 /* SearchingBluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingBluetoothViewController.swift; sourceTree = "<group>"; };
@@ -105,9 +108,6 @@
 		4C1092F92293B36E006DA686 /* SensorEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorEntity.swift; sourceTree = "<group>"; };
 		4C1092FA2293B36E006DA686 /* ThermometerRateMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermometerRateMonitor.swift; sourceTree = "<group>"; };
 		4C1093012293B4D0006DA686 /* MacAddressEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacAddressEntity.swift; sourceTree = "<group>"; };
-		4C1093042293B4ED006DA686 /* ObjectTemperatureWarning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectTemperatureWarning.swift; sourceTree = "<group>"; };
-		4C1093052293B4ED006DA686 /* TemperatureWarningEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureWarningEntity.swift; sourceTree = "<group>"; };
-		4C1093062293B4ED006DA686 /* DataTemperatureWarning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTemperatureWarning.swift; sourceTree = "<group>"; };
 		4C10930A2293B565006DA686 /* DeviceEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceEntity.swift; sourceTree = "<group>"; };
 		4C10930D2293BB4E006DA686 /* alarm_tone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_tone.mp3; sourceTree = "<group>"; };
 		4C10930E2293BB4E006DA686 /* baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = baby.mp3; sourceTree = "<group>"; };
@@ -115,35 +115,11 @@
 		4C288F0A22938EA200CEB1E8 /* Thermometer Smart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thermometer Smart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C288F0D22938EA200CEB1E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C288F1022938EA200CEB1E8 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Core/Result.swift; sourceTree = "<group>"; };
-		4C288F1322938EA200CEB1E8 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserEntity.swift; path = Core/Entities/UserEntity.swift; sourceTree = "<group>"; };
-		4C288F1522938EA200CEB1E8 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Book.swift; path = Core/Entities/Book.swift; sourceTree = "<group>"; };
-		4C288F1822938EA200CEB1E8 /* ItemRegionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItemRegionEntity.swift; path = Core/Entities/Country/ItemRegionEntity.swift; sourceTree = "<group>"; };
-		4C288F1A22938EA200CEB1E8 /* RegionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegionEntity.swift; path = Core/Entities/Country/RegionEntity.swift; sourceTree = "<group>"; };
-		4C288F1C22938EA200CEB1E8 /* SnippetRegionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SnippetRegionEntity.swift; path = Core/Entities/Country/SnippetRegionEntity.swift; sourceTree = "<group>"; };
-		4C288F1F22938EA200CEB1E8 /* DefautThumbnailsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DefautThumbnailsEntity.swift; path = Core/Entities/ListPlay/DefautThumbnailsEntity.swift; sourceTree = "<group>"; };
-		4C288F2122938EA200CEB1E8 /* HighThumbnailsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HighThumbnailsEntity.swift; path = Core/Entities/ListPlay/HighThumbnailsEntity.swift; sourceTree = "<group>"; };
-		4C288F2322938EA200CEB1E8 /* IdItemListPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IdItemListPlay.swift; path = Core/Entities/ListPlay/IdItemListPlay.swift; sourceTree = "<group>"; };
-		4C288F2522938EA200CEB1E8 /* ItemPlayList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItemPlayList.swift; path = Core/Entities/ListPlay/ItemPlayList.swift; sourceTree = "<group>"; };
-		4C288F2722938EA200CEB1E8 /* ListPlayEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListPlayEntity.swift; path = Core/Entities/ListPlay/ListPlayEntity.swift; sourceTree = "<group>"; };
-		4C288F2922938EA200CEB1E8 /* MediumThumbnailsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MediumThumbnailsEntity.swift; path = Core/Entities/ListPlay/MediumThumbnailsEntity.swift; sourceTree = "<group>"; };
-		4C288F2B22938EA200CEB1E8 /* PageInfoListPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PageInfoListPlay.swift; path = Core/Entities/ListPlay/PageInfoListPlay.swift; sourceTree = "<group>"; };
-		4C288F2D22938EA200CEB1E8 /* SnippetItemListPlayEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SnippetItemListPlayEntity.swift; path = Core/Entities/ListPlay/SnippetItemListPlayEntity.swift; sourceTree = "<group>"; };
-		4C288F2F22938EA200CEB1E8 /* ThumbnailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThumbnailEntity.swift; path = Core/Entities/ListPlay/ThumbnailEntity.swift; sourceTree = "<group>"; };
-		4C288F3222938EA200CEB1E8 /* DisplayCountryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DisplayCountryList.swift; path = Core/UseCases/DisplayCountryList.swift; sourceTree = "<group>"; };
-		4C288F3422938EA200CEB1E8 /* PlaylistUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaylistUseCase.swift; path = Core/UseCases/PlaylistUseCase.swift; sourceTree = "<group>"; };
-		4C288F3722938EA200CEB1E8 /* CountryGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CountryGateway.swift; path = Core/Gateways/CountryGateway.swift; sourceTree = "<group>"; };
-		4C288F3922938EA200CEB1E8 /* UserGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserGateway.swift; path = Core/Gateways/UserGateway.swift; sourceTree = "<group>"; };
-		4C288F3B22938EA200CEB1E8 /* PlaylistGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaylistGateway.swift; path = Core/Gateways/PlaylistGateway.swift; sourceTree = "<group>"; };
 		4C288F3E22938EA200CEB1E8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = CustomView/CardView.swift; sourceTree = "<group>"; };
 		4C288F4022938EA200CEB1E8 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Modal.swift; path = CustomView/Modal.swift; sourceTree = "<group>"; };
 		4C288F4422938EA200CEB1E8 /* ApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApiProvider.swift; path = EntityGateway/API/ApiProvider.swift; sourceTree = "<group>"; };
 		4C288F4622938EA200CEB1E8 /* TSAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TSAPI.swift; path = EntityGateway/API/TSAPI.swift; sourceTree = "<group>"; };
 		4C288F4822938EA200CEB1E8 /* TSAPITargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TSAPITargetType.swift; path = EntityGateway/API/TSAPITargetType.swift; sourceTree = "<group>"; };
-		4C288F4B22938EA200CEB1E8 /* ApiCountryGeteway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApiCountryGeteway.swift; path = EntityGateway/API/Gateways/ApiCountryGeteway.swift; sourceTree = "<group>"; };
-		4C288F4D22938EA200CEB1E8 /* ApiPlaylistGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApiPlaylistGateway.swift; path = EntityGateway/API/Gateways/ApiPlaylistGateway.swift; sourceTree = "<group>"; };
-		4C288F5022938EA200CEB1E8 /* CacheUsersGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CacheUsersGateway.swift; path = EntityGateway/Cache/CacheUsersGateway.swift; sourceTree = "<group>"; };
-		4C288F5322938EA200CEB1E8 /* RealmConnectorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RealmConnectorManager.swift; path = EntityGateway/LocalPersistence/RealmConnectorManager.swift; sourceTree = "<group>"; };
-		4C288F5622938EA200CEB1E8 /* LocalPersistenceUserGeteway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocalPersistenceUserGeteway.swift; path = EntityGateway/LocalPersistence/Gateways/LocalPersistenceUserGeteway.swift; sourceTree = "<group>"; };
 		4C288F5922938EA200CEB1E8 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Helper/Config.swift; sourceTree = "<group>"; };
 		4C288F5B22938EA200CEB1E8 /* Demo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Demo.json; path = Helper/Demo.json; sourceTree = "<group>"; };
 		4C288F5D22938EA200CEB1E8 /* LoadingHUDControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoadingHUDControl.swift; path = Helper/LoadingHUDControl.swift; sourceTree = "<group>"; };
@@ -180,9 +156,18 @@
 		4C288FC722938EA300CEB1E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C288FC922938EA300CEB1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C4D67222293FB6300ED7815 /* BluetoothService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothService.swift; sourceTree = "<group>"; };
-		C433500A0A3D19410C723AAB /* Pods-Thermometer Smart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thermometer Smart.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thermometer Smart/Pods-Thermometer Smart.release.xcconfig"; sourceTree = "<group>"; };
+		4C51224222955AA600BC02F6 /* PopupSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupSettingsViewController.swift; sourceTree = "<group>"; };
+		4C5122452295610E00BC02F6 /* RingToneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingToneTableViewCell.swift; sourceTree = "<group>"; };
+		4C5122462295610E00BC02F6 /* RingToneTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RingToneTableViewCell.xib; sourceTree = "<group>"; };
+		4C655C3B22950581004C14A5 /* TemperatureEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureEntity.swift; sourceTree = "<group>"; };
+		4C655C3D22950F38004C14A5 /* TemperaturePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperaturePresenter.swift; sourceTree = "<group>"; };
+		4C655C3F22950F4C004C14A5 /* TemperatureConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConfig.swift; sourceTree = "<group>"; };
+		4C655C4122950F59004C14A5 /* TemperatureViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureViewRouter.swift; sourceTree = "<group>"; };
+		4C8EA5BB2294F728001C838F /* TemperatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureViewController.swift; sourceTree = "<group>"; };
+		4C8EA5D22294FBFD001C838F /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E544A7A32B6D1F61893EC8 /* Pods-Thermometer Smart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thermometer Smart.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thermometer Smart/Pods-Thermometer Smart.release.xcconfig"; sourceTree = "<group>"; };
+		C1BD7471106C778B12F16B44 /* Pods-Thermometer Smart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thermometer Smart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thermometer Smart/Pods-Thermometer Smart.debug.xcconfig"; sourceTree = "<group>"; };
 		DEE3D0179954E93006C0A91F /* Pods_Thermometer_Smart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thermometer_Smart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E53ED2950A8FC32FE0D3F72A /* Pods-Thermometer Smart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thermometer Smart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thermometer Smart/Pods-Thermometer Smart.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,16 +222,6 @@
 			path = Entity;
 			sourceTree = "<group>";
 		};
-		4C1093032293B4ED006DA686 /* TemperatureWarnings */ = {
-			isa = PBXGroup;
-			children = (
-				4C1093042293B4ED006DA686 /* ObjectTemperatureWarning.swift */,
-				4C1093052293B4ED006DA686 /* TemperatureWarningEntity.swift */,
-				4C1093062293B4ED006DA686 /* DataTemperatureWarning.swift */,
-			);
-			path = TemperatureWarnings;
-			sourceTree = "<group>";
-		};
 		4C10930C2293BB4E006DA686 /* sound */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,8 +237,8 @@
 			children = (
 				4C288F0C22938EA200CEB1E8 /* Thermometer Smart */,
 				4C288F0B22938EA200CEB1E8 /* Products */,
-				AAD9CCCFF3ABE48AA45617B6 /* Pods */,
 				C59A7FB250C0B93E6D1713C6 /* Frameworks */,
+				BC26FEFE3CAF70A6A5F52F15 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -301,8 +276,6 @@
 			children = (
 				4C288F1022938EA200CEB1E8 /* Result.swift */,
 				4C288F1222938EA200CEB1E8 /* Entities */,
-				4C288F3122938EA200CEB1E8 /* UseCases */,
-				4C288F3622938EA200CEB1E8 /* Gateways */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -311,59 +284,10 @@
 			isa = PBXGroup;
 			children = (
 				4C1093012293B4D0006DA686 /* MacAddressEntity.swift */,
-				4C288F1322938EA200CEB1E8 /* UserEntity.swift */,
-				4C288F1522938EA200CEB1E8 /* Book.swift */,
-				4C1093032293B4ED006DA686 /* TemperatureWarnings */,
-				4C288F1722938EA200CEB1E8 /* Country */,
-				4C288F1E22938EA200CEB1E8 /* ListPlay */,
 				4C10930A2293B565006DA686 /* DeviceEntity.swift */,
+				4C655C3B22950581004C14A5 /* TemperatureEntity.swift */,
 			);
 			name = Entities;
-			sourceTree = "<group>";
-		};
-		4C288F1722938EA200CEB1E8 /* Country */ = {
-			isa = PBXGroup;
-			children = (
-				4C288F1822938EA200CEB1E8 /* ItemRegionEntity.swift */,
-				4C288F1A22938EA200CEB1E8 /* RegionEntity.swift */,
-				4C288F1C22938EA200CEB1E8 /* SnippetRegionEntity.swift */,
-			);
-			name = Country;
-			sourceTree = "<group>";
-		};
-		4C288F1E22938EA200CEB1E8 /* ListPlay */ = {
-			isa = PBXGroup;
-			children = (
-				4C288F1F22938EA200CEB1E8 /* DefautThumbnailsEntity.swift */,
-				4C288F2122938EA200CEB1E8 /* HighThumbnailsEntity.swift */,
-				4C288F2322938EA200CEB1E8 /* IdItemListPlay.swift */,
-				4C288F2522938EA200CEB1E8 /* ItemPlayList.swift */,
-				4C288F2722938EA200CEB1E8 /* ListPlayEntity.swift */,
-				4C288F2922938EA200CEB1E8 /* MediumThumbnailsEntity.swift */,
-				4C288F2B22938EA200CEB1E8 /* PageInfoListPlay.swift */,
-				4C288F2D22938EA200CEB1E8 /* SnippetItemListPlayEntity.swift */,
-				4C288F2F22938EA200CEB1E8 /* ThumbnailEntity.swift */,
-			);
-			name = ListPlay;
-			sourceTree = "<group>";
-		};
-		4C288F3122938EA200CEB1E8 /* UseCases */ = {
-			isa = PBXGroup;
-			children = (
-				4C288F3222938EA200CEB1E8 /* DisplayCountryList.swift */,
-				4C288F3422938EA200CEB1E8 /* PlaylistUseCase.swift */,
-			);
-			name = UseCases;
-			sourceTree = "<group>";
-		};
-		4C288F3622938EA200CEB1E8 /* Gateways */ = {
-			isa = PBXGroup;
-			children = (
-				4C288F3722938EA200CEB1E8 /* CountryGateway.swift */,
-				4C288F3922938EA200CEB1E8 /* UserGateway.swift */,
-				4C288F3B22938EA200CEB1E8 /* PlaylistGateway.swift */,
-			);
-			name = Gateways;
 			sourceTree = "<group>";
 		};
 		4C288F3D22938EA200CEB1E8 /* CustomView */ = {
@@ -379,8 +303,6 @@
 			isa = PBXGroup;
 			children = (
 				4C288F4322938EA200CEB1E8 /* API */,
-				4C288F4F22938EA200CEB1E8 /* Cache */,
-				4C288F5222938EA200CEB1E8 /* LocalPersistence */,
 			);
 			name = EntityGateway;
 			sourceTree = "<group>";
@@ -391,43 +313,8 @@
 				4C288F4422938EA200CEB1E8 /* ApiProvider.swift */,
 				4C288F4622938EA200CEB1E8 /* TSAPI.swift */,
 				4C288F4822938EA200CEB1E8 /* TSAPITargetType.swift */,
-				4C288F4A22938EA200CEB1E8 /* Gateways */,
 			);
 			name = API;
-			sourceTree = "<group>";
-		};
-		4C288F4A22938EA200CEB1E8 /* Gateways */ = {
-			isa = PBXGroup;
-			children = (
-				4C288F4B22938EA200CEB1E8 /* ApiCountryGeteway.swift */,
-				4C288F4D22938EA200CEB1E8 /* ApiPlaylistGateway.swift */,
-			);
-			name = Gateways;
-			sourceTree = "<group>";
-		};
-		4C288F4F22938EA200CEB1E8 /* Cache */ = {
-			isa = PBXGroup;
-			children = (
-				4C288F5022938EA200CEB1E8 /* CacheUsersGateway.swift */,
-			);
-			name = Cache;
-			sourceTree = "<group>";
-		};
-		4C288F5222938EA200CEB1E8 /* LocalPersistence */ = {
-			isa = PBXGroup;
-			children = (
-				4C288F5322938EA200CEB1E8 /* RealmConnectorManager.swift */,
-				4C288F5522938EA200CEB1E8 /* Gateways */,
-			);
-			name = LocalPersistence;
-			sourceTree = "<group>";
-		};
-		4C288F5522938EA200CEB1E8 /* Gateways */ = {
-			isa = PBXGroup;
-			children = (
-				4C288F5622938EA200CEB1E8 /* LocalPersistenceUserGeteway.swift */,
-			);
-			name = Gateways;
 			sourceTree = "<group>";
 		};
 		4C288F5822938EA200CEB1E8 /* Helper */ = {
@@ -524,6 +411,7 @@
 		4C288F9E22938EA200CEB1E8 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				4C8EA5BA2294F70A001C838F /* Temperature */,
 				4C1092E72293A573006DA686 /* SearchingBluetooth */,
 				4C288F9F22938EA200CEB1E8 /* BaseViewController.swift */,
 				4C4D67222293FB6300ED7815 /* BluetoothService.swift */,
@@ -531,11 +419,41 @@
 			name = Scenes;
 			sourceTree = "<group>";
 		};
-		AAD9CCCFF3ABE48AA45617B6 /* Pods */ = {
+		4C51224122955A6500BC02F6 /* Popup */ = {
 			isa = PBXGroup;
 			children = (
-				E53ED2950A8FC32FE0D3F72A /* Pods-Thermometer Smart.debug.xcconfig */,
-				C433500A0A3D19410C723AAB /* Pods-Thermometer Smart.release.xcconfig */,
+				4C512244229560EF00BC02F6 /* cell */,
+				4C51224222955AA600BC02F6 /* PopupSettingsViewController.swift */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
+		4C512244229560EF00BC02F6 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				4C5122452295610E00BC02F6 /* RingToneTableViewCell.swift */,
+				4C5122462295610E00BC02F6 /* RingToneTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		4C8EA5BA2294F70A001C838F /* Temperature */ = {
+			isa = PBXGroup;
+			children = (
+				4C51224122955A6500BC02F6 /* Popup */,
+				4C8EA5BB2294F728001C838F /* TemperatureViewController.swift */,
+				4C655C3D22950F38004C14A5 /* TemperaturePresenter.swift */,
+				4C655C3F22950F4C004C14A5 /* TemperatureConfig.swift */,
+				4C655C4122950F59004C14A5 /* TemperatureViewRouter.swift */,
+			);
+			name = Temperature;
+			sourceTree = "<group>";
+		};
+		BC26FEFE3CAF70A6A5F52F15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1BD7471106C778B12F16B44 /* Pods-Thermometer Smart.debug.xcconfig */,
+				51E544A7A32B6D1F61893EC8 /* Pods-Thermometer Smart.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -543,6 +461,7 @@
 		C59A7FB250C0B93E6D1713C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C8EA5D22294FBFD001C838F /* Charts.framework */,
 				DEE3D0179954E93006C0A91F /* Pods_Thermometer_Smart.framework */,
 			);
 			name = Frameworks;
@@ -550,16 +469,29 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		4C8EA5D52294FCDB001C838F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		4C288F0922938EA200CEB1E8 /* Thermometer Smart */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C288FCC22938EA300CEB1E8 /* Build configuration list for PBXNativeTarget "Thermometer Smart" */;
 			buildPhases = (
 				74662AA68C9A1594BADF4645 /* [CP] Check Pods Manifest.lock */,
+				4C8EA5D52294FCDB001C838F /* Headers */,
 				4C288F0622938EA200CEB1E8 /* Sources */,
 				4C288F0722938EA200CEB1E8 /* Frameworks */,
 				4C288F0822938EA200CEB1E8 /* Resources */,
 				98D5859C9136B684B8B6AB42 /* [CP] Embed Pods Frameworks */,
+				4C8EA5D42294FCD4001C838F /* CopyFiles */,
+				4C8EA5DB2294FF43001C838F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -621,6 +553,7 @@
 				4C288FC322938EA200CEB1E8 /* Main.storyboard in Resources */,
 				4C1093102293BB4E006DA686 /* alarm_tone.mp3 in Resources */,
 				4C288FC522938EA300CEB1E8 /* Assets.xcassets in Resources */,
+				4C5122482295610E00BC02F6 /* RingToneTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,6 +592,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Thermometer Smart/Pods-Thermometer Smart-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MXParallaxHeader/MXParallaxHeader.framework",
@@ -679,6 +613,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXParallaxHeader.framework",
@@ -706,80 +641,60 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C288F1922938EA200CEB1E8 /* ItemRegionEntity.swift in Sources */,
 				4C288F8822938EA200CEB1E8 /* PickerViewDialog.swift in Sources */,
 				4C288F6B22938EA200CEB1E8 /* Date+Extension.swift in Sources */,
 				4C288F6022938EA200CEB1E8 /* TSDateTranform.swift in Sources */,
-				4C288F5422938EA200CEB1E8 /* RealmConnectorManager.swift in Sources */,
 				4C288F6522938EA200CEB1E8 /* Array+Extension.swift in Sources */,
 				4C10930B2293B565006DA686 /* DeviceEntity.swift in Sources */,
-				4C1093082293B4ED006DA686 /* TemperatureWarningEntity.swift in Sources */,
 				4C288F6F22938EA200CEB1E8 /* NumberFormatter+Extension.swift in Sources */,
-				4C288F3C22938EA200CEB1E8 /* PlaylistGateway.swift in Sources */,
 				4C1092F32293AC8E006DA686 /* DeviceTableViewCell.swift in Sources */,
-				4C288F3022938EA200CEB1E8 /* ThumbnailEntity.swift in Sources */,
+				4C8EA5BC2294F728001C838F /* TemperatureViewController.swift in Sources */,
 				4C288F9522938EA200CEB1E8 /* CAPSPageMenu+UIConfiguration.swift in Sources */,
 				4C288F7722938EA200CEB1E8 /* TextField+Extension.swift in Sources */,
 				4C288F6722938EA200CEB1E8 /* UIDevice+Extension.swift in Sources */,
 				4C1092ED2293A5F2006DA686 /* SearchingBluetoothConfiguration.swift in Sources */,
-				4C1093072293B4ED006DA686 /* ObjectTemperatureWarning.swift in Sources */,
-				4C288F3322938EA200CEB1E8 /* DisplayCountryList.swift in Sources */,
 				4C288F9322938EA200CEB1E8 /* CAPSPageMenu+Options.swift in Sources */,
 				4C288F7922938EA200CEB1E8 /* String+Extension.swift in Sources */,
-				4C288F1622938EA200CEB1E8 /* Book.swift in Sources */,
 				4C288F4122938EA200CEB1E8 /* Modal.swift in Sources */,
-				4C288F5722938EA200CEB1E8 /* LocalPersistenceUserGeteway.swift in Sources */,
 				4C288F9122938EA200CEB1E8 /* CAPSPageMenu.swift in Sources */,
 				4C288F8B22938EA200CEB1E8 /* Observable+ObjectMapper.swift.swift in Sources */,
 				4C288F7322938EA200CEB1E8 /* UITableView+Extension.swift in Sources */,
 				4C288F4722938EA200CEB1E8 /* TSAPI.swift in Sources */,
 				4C288F7122938EA200CEB1E8 /* UIImage+Extension.swift in Sources */,
-				4C288F1B22938EA200CEB1E8 /* RegionEntity.swift in Sources */,
-				4C288F1D22938EA200CEB1E8 /* SnippetRegionEntity.swift in Sources */,
 				4C288F6D22938EA200CEB1E8 /* Label+Extension.swift in Sources */,
 				4C1092FC2293B36E006DA686 /* ThermometerRate.swift in Sources */,
-				4C288F2622938EA200CEB1E8 /* ItemPlayList.swift in Sources */,
 				4C288F4522938EA200CEB1E8 /* ApiProvider.swift in Sources */,
 				4C1092FD2293B36E006DA686 /* DisplayPeripheral.swift in Sources */,
+				4C51224322955AA600BC02F6 /* PopupSettingsViewController.swift in Sources */,
 				4C288F7522938EA200CEB1E8 /* UIView+Extension.swift in Sources */,
-				4C288F3522938EA200CEB1E8 /* PlaylistUseCase.swift in Sources */,
+				4C655C3C22950581004C14A5 /* TemperatureEntity.swift in Sources */,
 				4C288F6222938EA200CEB1E8 /* ViewRouter.swift in Sources */,
-				4C288F2022938EA200CEB1E8 /* DefautThumbnailsEntity.swift in Sources */,
 				4C288F1122938EA200CEB1E8 /* Result.swift in Sources */,
+				4C655C3E22950F38004C14A5 /* TemperaturePresenter.swift in Sources */,
 				4C288FA022938EA200CEB1E8 /* BaseViewController.swift in Sources */,
 				4C288F9B22938EA200CEB1E8 /* CAPSPageMenuConfiguration.swift in Sources */,
 				4C1093022293B4D0006DA686 /* MacAddressEntity.swift in Sources */,
-				4C288F2222938EA200CEB1E8 /* HighThumbnailsEntity.swift in Sources */,
-				4C288F2C22938EA200CEB1E8 /* PageInfoListPlay.swift in Sources */,
 				4C288F8222938EA200CEB1E8 /* Log.swift in Sources */,
-				4C288F1422938EA200CEB1E8 /* UserEntity.swift in Sources */,
 				4C288F0E22938EA200CEB1E8 /* AppDelegate.swift in Sources */,
-				4C288F4C22938EA200CEB1E8 /* ApiCountryGeteway.swift in Sources */,
 				4C4D67232293FB6300ED7815 /* BluetoothService.swift in Sources */,
 				4C288F9D22938EA200CEB1E8 /* MenuItemView.swift in Sources */,
 				4C288F8D22938EA200CEB1E8 /* Response+ObjectMapper.swift in Sources */,
 				4C288F4922938EA200CEB1E8 /* TSAPITargetType.swift in Sources */,
 				4C288F7E22938EA200CEB1E8 /* ConstantDefine.swift in Sources */,
-				4C288F2822938EA200CEB1E8 /* ListPlayEntity.swift in Sources */,
-				4C288F2A22938EA200CEB1E8 /* MediumThumbnailsEntity.swift in Sources */,
-				4C288F2422938EA200CEB1E8 /* IdItemListPlay.swift in Sources */,
 				4C1092FE2293B36E006DA686 /* SensorEntity.swift in Sources */,
 				4C288F8622938EA200CEB1E8 /* DatePickerDialog.swift in Sources */,
-				4C288F3A22938EA200CEB1E8 /* UserGateway.swift in Sources */,
+				4C5122472295610E00BC02F6 /* RingToneTableViewCell.swift in Sources */,
 				4C288F9722938EA200CEB1E8 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
+				4C655C4222950F59004C14A5 /* TemperatureViewRouter.swift in Sources */,
+				4C655C4022950F4C004C14A5 /* TemperatureConfig.swift in Sources */,
 				4C1092EB2293A5D9006DA686 /* SearchingBluetoothPresenter.swift in Sources */,
 				4C288F8022938EA200CEB1E8 /* Define.swift in Sources */,
-				4C288F2E22938EA200CEB1E8 /* SnippetItemListPlayEntity.swift in Sources */,
-				4C1093092293B4ED006DA686 /* DataTemperatureWarning.swift in Sources */,
-				4C288F4E22938EA200CEB1E8 /* ApiPlaylistGateway.swift in Sources */,
 				4C1092FF2293B36E006DA686 /* ThermometerRateMonitor.swift in Sources */,
 				4C288F5E22938EA200CEB1E8 /* LoadingHUDControl.swift in Sources */,
 				4C1092E622939E5E006DA686 /* SearchingBluetoothViewController.swift in Sources */,
 				4C288F3F22938EA200CEB1E8 /* CardView.swift in Sources */,
 				4C288F5A22938EA200CEB1E8 /* Config.swift in Sources */,
-				4C288F5122938EA200CEB1E8 /* CacheUsersGateway.swift in Sources */,
 				4C1092EF2293A607006DA686 /* SearchingBluetoothViewRouter.swift in Sources */,
-				4C288F3822938EA200CEB1E8 /* CountryGateway.swift in Sources */,
 				4C288F9922938EA200CEB1E8 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -924,7 +839,7 @@
 		};
 		4C288FCD22938EA300CEB1E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E53ED2950A8FC32FE0D3F72A /* Pods-Thermometer Smart.debug.xcconfig */;
+			baseConfigurationReference = C1BD7471106C778B12F16B44 /* Pods-Thermometer Smart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -944,7 +859,7 @@
 		};
 		4C288FCE22938EA300CEB1E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C433500A0A3D19410C723AAB /* Pods-Thermometer Smart.release.xcconfig */;
+			baseConfigurationReference = 51E544A7A32B6D1F61893EC8 /* Pods-Thermometer Smart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -38,6 +38,9 @@ struct DateFormat {
 enum notificationName: String {
     //Login
     case skipLogin = "skipLogin"
+    case dataThermomete = "dataThermomete"
+    case presentTemperature = "presentTemperature"
+    case showNotConnected = "showNotConnected"
     var notification: NSNotification.Name{
         return Notification.Name(rawValue: self.rawValue)
     }
@@ -51,4 +54,8 @@ struct Thermometer {
 struct CodeResponse  {
     public static var success: Int = 200
     public static var failure: Int = 400
+}
+
+public class DataSingleton {
+    static var peripheralSelect:DisplayPeripheral?
 }

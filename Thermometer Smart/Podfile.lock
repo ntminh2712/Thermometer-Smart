@@ -1,5 +1,8 @@
 PODS:
   - Alamofire (4.8.2)
+  - Charts (3.3.0):
+    - Charts/Core (= 3.3.0)
+  - Charts/Core (3.3.0)
   - Crashlytics (3.13.1):
     - Fabric (~> 1.10.1)
   - Fabric (1.10.1)
@@ -31,6 +34,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
+  - Charts (from `Charts/`)
   - Crashlytics
   - Fabric
   - IQKeyboardManager
@@ -65,8 +69,13 @@ SPEC REPOS:
     - RxSwift
     - SnapKit
 
+EXTERNAL SOURCES:
+  Charts:
+    :path: Charts/
+
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Charts: 30200b31b81ff7cad9bc1d92dab7230595e5abca
   Crashlytics: 5aa8e90dcbf2f34898b4f5a0037787531246cca0
   Fabric: f6f21452846788bb44595d73e9909d79d328e617
   IQKeyboardManager: 2ca9d64893247556f53523dcd8d78641f0ba7c23
@@ -84,6 +93,6 @@ SPEC CHECKSUMS:
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
 
-PODFILE CHECKSUM: b59d083b9291680ecdd5031a3312afd0d23cbd8c
+PODFILE CHECKSUM: 48b15190462a7abff6554cc502527bdf8d8f9fde
 
 COCOAPODS: 1.5.3

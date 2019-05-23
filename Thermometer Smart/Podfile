@@ -2,6 +2,7 @@
 platform :ios, '9.0'
 target 'Thermometer Smart' do;
 use_frameworks!;
+pod 'Charts', :path => 'Charts/'
 pod 'Fabric';
 pod 'RealmSwift';
 pod 'Crashlytics';

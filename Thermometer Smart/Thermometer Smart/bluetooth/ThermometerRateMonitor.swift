@@ -98,7 +98,17 @@ class ThermometerTemperatureMonitor: NSObject, CBCentralManagerDelegate, CBPerip
         self.heartMonitor!.delegate = self
         self.heartMonitor!.discoverServices(nil)
         let connected = "Connected: " + (self.heartMonitor!.state == CBPeripheralState.connected ? "YES" : "NO")
+        
         print("\(connected)")
+        
+        if self.heartMonitor!.state == CBPeripheralState.connected {
+            NotificationCenter.default.post(name: notificationName.presentTemperature.notification, object: nil)
+            
+        }else {
+            NotificationCenter.default.post(name: notificationName.showNotConnected.notification, object: nil)
+        }
+        
+        
     }
     
     func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber) {
@@ -345,7 +355,8 @@ class ThermometerTemperatureMonitor: NSObject, CBCentralManagerDelegate, CBPerip
             let firstOctet = UInt32(buffer[1])&0x00FF
             let secondOctet = UInt32(buffer[2])&0x00FF
             let mantissa = ((firstOctet)|(secondOctet<<8))&UInt32(0x00FFFFFF)
-            print(mantissa)
+            let data:[String: Double] = ["temperature": Double(mantissa)]
+            NotificationCenter.default.post(name: notificationName.dataThermomete.notification, object: nil, userInfo: data)
         }
         
     }

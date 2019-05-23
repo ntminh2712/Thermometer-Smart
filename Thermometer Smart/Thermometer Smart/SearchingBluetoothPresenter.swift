@@ -16,7 +16,7 @@ protocol SearchingBluetoothView: class {
 protocol SearchingBluetoothPeresenter {
     
     func viewDidLoad()
-    func startScanning()
+    func presentTemperature()
 }
 
 class SearchingBluetoothPresenterImplementation: SearchingBluetoothPeresenter{
@@ -34,6 +34,9 @@ class SearchingBluetoothPresenterImplementation: SearchingBluetoothPeresenter{
     }
     func startScanning(){
         
+    }
+    func presentTemperature() {
+        self.router.presentTemperature()
     }
     
 }

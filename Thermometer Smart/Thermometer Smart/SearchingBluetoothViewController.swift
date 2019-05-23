@@ -19,10 +19,6 @@ class SearchingBluetoothViewController:BaseViewController, SearchingBluetoothVie
     
     let bluetoothService = BluetoothService()
     lazy var pairingFlow = PairingFlow(bluetoothSerivce: self.bluetoothService)
-
-    var manager : CBCentralManager!
-    
-    
     @IBOutlet weak var loading: NVActivityIndicatorView!
     @IBOutlet weak var loading2: NVActivityIndicatorView!
     @IBOutlet weak var tbDevice: UITableView!
@@ -62,24 +58,27 @@ class SearchingBluetoothViewController:BaseViewController, SearchingBluetoothVie
         config.configure(searchingBluetoothControler: self)
         configTableView()
         setLoading()
+        
+    }
+    
+    override func initInterface() {
         self.bluetoothService.flowController = self.pairingFlow
         self.bluetoothService.startScan()
         if Thermometer.heartMonitor == nil
         {
             Thermometer.heartMonitor = ThermometerTemperatureMonitor()
         }
-
+        
         heartMonitorData = Thermometer.heartMonitor
         self.heartMonitorData?.startScanning()
-        manager = CBCentralManager(delegate: self, queue: nil)
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(presentTemperature), name: notificationName.presentTemperature.notification, object: nil)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         self.checkBluetoothState()
     }
     private func checkBluetoothState() {
-//        self.statusLabel.text = "Status: bluetooth is \(bluetoothService.bluetoothState == .poweredOn ? "ON" : "OFF")"
-        
         if #available(iOS 10.0, *) {
             if self.bluetoothService.bluetoothState != .poweredOn {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 2) { self.checkBluetoothState() }
@@ -111,7 +110,15 @@ class SearchingBluetoothViewController:BaseViewController, SearchingBluetoothVie
         self.heartMonitorData?.centralManager.connect(sensor, options: nil)
         self.heartMonitorData?.stopScanning()
     }
+    
+    @objc func presentTemperature() {
+        self.presenter?.presentTemperature()
+    }
+    func autoConnectedDevice() {
+        
+    }
 
+    
 }
 extension SearchingBluetoothViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -125,6 +132,7 @@ extension SearchingBluetoothViewController: UITableViewDelegate, UITableViewData
             [weak self] in
             var displaySensor = self?.peripherals[indexPath.item]
             displaySensor!.macAddress = cell.lbMac.text!
+            DataSingleton.peripheralSelect = self?.peripherals[indexPath.row]
             self?.connectSensor(displaySensor: displaySensor!, isBreak: false, macAddress:  cell.lbMac.text!)
         }
         return cell
