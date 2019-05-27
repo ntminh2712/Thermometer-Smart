@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MyriadProBold.otf">
+            <string>MyriadPro-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="ScanTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="DeviceTableViewCell" rowHeight="173" id="aoV-zl-ynB" customClass="DeviceTableViewCell" customModule="Thermometer_Smart" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="520" height="173"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aoV-zl-ynB" id="Kym-gl-Qtm">
+                <rect key="frame" x="0.0" y="0.0" width="520" height="172.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_device_hor" translatesAutoresizingMaskIntoConstraints="NO" id="MBY-f3-Iyg">
+                        <rect key="frame" x="28" y="63" width="57" height="57"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="MBY-f3-Iyg" secondAttribute="height" multiplier="1:1" id="0Vm-c0-jo6"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="J100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IhC-II-V9D">
+                        <rect key="frame" x="100" y="71" width="46" height="24.5"/>
+                        <fontDescription key="fontDescription" name="MyriadPro-Bold" family="Myriad Pro" pointSize="21"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAC: 01-35-DC-5-344" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7K-mq-qgQ">
+                        <rect key="frame" x="100" y="100.5" width="351" height="27"/>
+                        <fontDescription key="fontDescription" name="MyanmarSangamMN" family="Myanmar Sangam MN" pointSize="17"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_level_conect" translatesAutoresizingMaskIntoConstraints="NO" id="a4u-5s-snO">
+                        <rect key="frame" x="459" y="96.5" width="26" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="26" id="0sX-KM-Qei"/>
+                            <constraint firstAttribute="height" constant="23" id="Wrw-tF-Gvv"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZ7-FP-AA5">
+                        <rect key="frame" x="154" y="0.0" width="334" height="45"/>
+                        <connections>
+                            <action selector="actionConnect:" destination="aoV-zl-ynB" eventType="touchUpInside" id="ano-cs-FaS"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="qZ7-FP-AA5" secondAttribute="bottom" id="5CE-da-URn"/>
+                    <constraint firstItem="a4u-5s-snO" firstAttribute="bottom" secondItem="E7K-mq-qgQ" secondAttribute="bottom" constant="-8" id="JMZ-ws-71f"/>
+                    <constraint firstItem="E7K-mq-qgQ" firstAttribute="leading" secondItem="IhC-II-V9D" secondAttribute="leading" id="Jdt-es-xaM"/>
+                    <constraint firstItem="E7K-mq-qgQ" firstAttribute="top" secondItem="IhC-II-V9D" secondAttribute="bottom" constant="5" id="USa-N0-mo6"/>
+                    <constraint firstItem="a4u-5s-snO" firstAttribute="leading" secondItem="E7K-mq-qgQ" secondAttribute="trailing" constant="8" id="VcD-eB-4Cd"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="a4u-5s-snO" secondAttribute="trailing" constant="15" id="cic-mX-PVv"/>
+                    <constraint firstItem="qZ7-FP-AA5" firstAttribute="top" secondItem="Kym-gl-Qtm" secondAttribute="top" id="cou-C5-bpO"/>
+                    <constraint firstItem="MBY-f3-Iyg" firstAttribute="leading" secondItem="Kym-gl-Qtm" secondAttribute="leadingMargin" constant="8" id="eyN-20-OCN"/>
+                    <constraint firstItem="MBY-f3-Iyg" firstAttribute="top" secondItem="Kym-gl-Qtm" secondAttribute="topMargin" constant="8" id="h46-Tf-O0G"/>
+                    <constraint firstItem="qZ7-FP-AA5" firstAttribute="leading" secondItem="Kym-gl-Qtm" secondAttribute="leading" id="hZG-Fh-NHt"/>
+                    <constraint firstAttribute="trailing" secondItem="qZ7-FP-AA5" secondAttribute="trailing" id="jwC-7o-5hj"/>
+                    <constraint firstItem="IhC-II-V9D" firstAttribute="leading" secondItem="MBY-f3-Iyg" secondAttribute="trailing" constant="15" id="qyW-md-ixp"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="MBY-f3-Iyg" secondAttribute="bottom" constant="8" id="v7k-bE-sK2"/>
+                    <constraint firstItem="IhC-II-V9D" firstAttribute="top" secondItem="MBY-f3-Iyg" secondAttribute="top" constant="8" id="xbb-FK-bGB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="2fM-cp-ibj"/>
+            <connections>
+                <outlet property="lbMac" destination="E7K-mq-qgQ" id="aTy-DS-3TN"/>
+                <outlet property="lbName" destination="IhC-II-V9D" id="ICt-4Z-ef5"/>
+            </connections>
+            <point key="canvasLocation" x="-266.66666666666669" y="-3.0133928571428572"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_device_hor" width="100" height="99"/>
+        <image name="ic_level_conect" width="19" height="18"/>
+    </resources>
+</document>
